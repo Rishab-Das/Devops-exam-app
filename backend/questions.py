@@ -20,7 +20,7 @@ questions = [
         "answer": "SonarQube project"
     },
     {
-        "question": "What is the main purpose of SonarQube?",
+        "question":"What is the main purpose of SonarQube?",
         "options": ["Continuous integration", "Code quality analysis", "Artifact storage", "Container orchestration"],
         "answer": "Code quality analysis"
     },
