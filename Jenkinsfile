@@ -58,7 +58,7 @@ pipeline {
             }
         }
 
-        // Added Docker Scout Image Analysis
+        
         stage('Docker Scout Image Analysis') {
             steps {
                 script {
