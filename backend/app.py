@@ -100,7 +100,7 @@ def download_certificate():
                                        score=score,
                                        date=datetime.now().strftime("%B %d, %Y"))
         
-        # Create PDF
+      
         pdf = BytesIO()
         pisa.CreatePDF(rendered, dest=pdf)
         pdf.seek(0)
